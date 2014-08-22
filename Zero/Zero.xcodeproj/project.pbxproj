@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1007D55419A77A53005FA5FB /* SelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1007D55319A77A53005FA5FB /* SelectorViewController.m */; };
 		B20CCC3919A73F0D0010C3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CCC3819A73F0D0010C3EA /* main.m */; };
 		B20CCC3C19A73F0D0010C3EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CCC3B19A73F0D0010C3EA /* AppDelegate.m */; };
 		B20CCC3F19A73F0D0010C3EA /* Zero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B20CCC3D19A73F0D0010C3EA /* Zero.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1007D55219A77A53005FA5FB /* SelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorViewController.h; sourceTree = "<group>"; };
+		1007D55319A77A53005FA5FB /* SelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorViewController.m; sourceTree = "<group>"; };
 		B20CCC3319A73F0D0010C3EA /* Zero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20CCC3719A73F0D0010C3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B20CCC3819A73F0D0010C3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				B20CCC3619A73F0D0010C3EA /* Supporting Files */,
 				B20CCC5C19A73FC60010C3EA /* SecondViewController.h */,
 				B20CCC5D19A73FC60010C3EA /* SecondViewController.m */,
+				1007D55219A77A53005FA5FB /* SelectorViewController.h */,
+				1007D55319A77A53005FA5FB /* SelectorViewController.m */,
 			);
 			path = Zero;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B20CCC5E19A73FC60010C3EA /* SecondViewController.m in Sources */,
+				1007D55419A77A53005FA5FB /* SelectorViewController.m in Sources */,
 				B20CCC3C19A73F0D0010C3EA /* AppDelegate.m in Sources */,
 				B20CCC3F19A73F0D0010C3EA /* Zero.xcdatamodeld in Sources */,
 				B20CCC4219A73F0D0010C3EA /* ViewController.m in Sources */,
@@ -412,6 +418,7 @@
 				B20CCC5819A73F0D0010C3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B20CCC5919A73F0D0010C3EA /* Build configuration list for PBXNativeTarget "ZeroTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				B20CCC5B19A73F0D0010C3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
