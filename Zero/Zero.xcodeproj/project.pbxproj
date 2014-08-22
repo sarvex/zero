@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1007D55419A77A53005FA5FB /* SelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1007D55319A77A53005FA5FB /* SelectorViewController.m */; };
+		92D2BB7F19A79C220097E9E6 /* DMLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D2BB7E19A79C220097E9E6 /* DMLazyScrollView.m */; };
 		B20CCC3919A73F0D0010C3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CCC3819A73F0D0010C3EA /* main.m */; };
 		B20CCC3C19A73F0D0010C3EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CCC3B19A73F0D0010C3EA /* AppDelegate.m */; };
 		B20CCC3F19A73F0D0010C3EA /* Zero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B20CCC3D19A73F0D0010C3EA /* Zero.xcdatamodeld */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		1007D55219A77A53005FA5FB /* SelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorViewController.h; sourceTree = "<group>"; };
 		1007D55319A77A53005FA5FB /* SelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorViewController.m; sourceTree = "<group>"; };
+		92D2BB7D19A79C220097E9E6 /* DMLazyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLazyScrollView.h; sourceTree = "<group>"; };
+		92D2BB7E19A79C220097E9E6 /* DMLazyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLazyScrollView.m; sourceTree = "<group>"; };
 		B20CCC3319A73F0D0010C3EA /* Zero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20CCC3719A73F0D0010C3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B20CCC3819A73F0D0010C3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 		B20CCC3519A73F0D0010C3EA /* Zero */ = {
 			isa = PBXGroup;
 			children = (
+				92D2BB7D19A79C220097E9E6 /* DMLazyScrollView.h */,
+				92D2BB7E19A79C220097E9E6 /* DMLazyScrollView.m */,
 				B20CCC3A19A73F0D0010C3EA /* AppDelegate.h */,
 				B20CCC3B19A73F0D0010C3EA /* AppDelegate.m */,
 				B20CCC4019A73F0D0010C3EA /* ViewController.h */,
@@ -231,6 +236,7 @@
 				B20CCC5E19A73FC60010C3EA /* SecondViewController.m in Sources */,
 				1007D55419A77A53005FA5FB /* SelectorViewController.m in Sources */,
 				B20CCC3C19A73F0D0010C3EA /* AppDelegate.m in Sources */,
+				92D2BB7F19A79C220097E9E6 /* DMLazyScrollView.m in Sources */,
 				B20CCC3F19A73F0D0010C3EA /* Zero.xcdatamodeld in Sources */,
 				B20CCC4219A73F0D0010C3EA /* ViewController.m in Sources */,
 				B20CCC3919A73F0D0010C3EA /* main.m in Sources */,
