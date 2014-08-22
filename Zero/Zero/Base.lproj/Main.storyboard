@@ -95,7 +95,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="didBtnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3DS-as-GND"/>
                                     <segue destination="z2e-sL-vnh" kind="modal" identifier="selector" id="KvK-LG-HmF"/>
                                 </connections>
                             </button>
@@ -106,7 +105,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="didFlightBtnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NWP-Fu-iWw"/>
+                                    <segue destination="z2e-sL-vnh" kind="modal" identifier="selectorFlight" id="Xlo-zh-Cm7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -452,4 +451,7 @@
             <size key="landscapeSize" width="568" height="320"/>
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Xlo-zh-Cm7"/>
+    </inferredMetricsTieBreakers>
 </document>

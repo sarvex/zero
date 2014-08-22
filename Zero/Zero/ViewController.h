@@ -10,12 +10,8 @@
 
 @interface ViewController : UIViewController
 @property (nonatomic,strong)NSString *selectedValue;
-@property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
-
-- (IBAction)didBtnClicked:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *button;
 @property (weak, nonatomic) IBOutlet UIButton *flightBtn;
-- (IBAction)didFlightBtnClicked:(id)sender;
 @end
 
 

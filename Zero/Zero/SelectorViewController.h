@@ -15,11 +15,11 @@
 @end
 
 @interface SelectorViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource>
+
 @property(nonatomic,assign)BOOL isAirlineSelection;
 @property(nonatomic,weak) id<SelectorViewControllerDelegate> delegate;
-@property (nonatomic,strong)NSString *selectedValue;
 @property(nonatomic,strong)NSArray *dataSource;
-@property(nonatomic,assign)ViewController *viewController;
+
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
 - (IBAction)didDoneClicked:(id)sender;
 
