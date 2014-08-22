@@ -107,6 +107,7 @@
                                 </state>
                                 <connections>
                                     <action selector="didFlightBtnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NWP-Fu-iWw"/>
+                                    <segue destination="z2e-sL-vnh" kind="modal" identifier="selectorFlight" id="Xlo-zh-Cm7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -197,4 +198,7 @@
             <size key="landscapeSize" width="568" height="320"/>
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Xlo-zh-Cm7"/>
+    </inferredMetricsTieBreakers>
 </document>
